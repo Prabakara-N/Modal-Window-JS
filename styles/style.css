@@ -42,4 +42,87 @@ html {
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--clr-white);
+  width: 90%;
+  margin: 2rem auto;
+  background-image: url(../images/BG\ img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: var(--clr-royal-blue-dark);
+  color: white;
+}
+
+.clubs-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.btn-container {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  width: 150px;
+  height: 70px;
+}
+
+.btn {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.btn:hover {
+  transform: scale(1.1) translateY(-5px);
+  transition: 0.5s;
+}
+
+.btnn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.club {
+  width: 33%;
+  margin: 2rem auto;
+  text-align: center;
+  background-image: radial-gradient(
+    circle farthest-corner at -4% -12.9%,
+    rgba(74, 98, 110, 1) 0.3%,
+    rgba(30, 33, 48, 1) 90.2%
+  );
+  color: #f4f2f2;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25), -3px -3px 3px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.img-3 {
+  height: 32vh;
+}
+
+.club-stats {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 28px;
+}
+
+.open {
+  display: block;
+}
+
+.close {
+  display: none;
 }

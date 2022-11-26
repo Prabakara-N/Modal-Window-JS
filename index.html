@@ -7,7 +7,7 @@
     <!-- Custom Favicon -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
 
-    <title>Template</title>
+    <title>Model-Window</title>
 
     <!-- FontAwesome -->
     <link
@@ -25,6 +25,72 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
+    <h1 class="title">Cristiano Ronaldo Club Stats</h1>
+    <!-- 3 buttons -->
+    <div class="btn-container">
+      <button class="btn btn-1" id="btn-open-1">
+        <img src="./images/MU.jpg" alt="mu" class="logo" />
+      </button>
+      <button class="btn btn-2" id="btn-open-2">
+        <img src="./images/Rm.jpg" alt="rm" class="logo" />
+      </button>
+      <button class="btn btn-3" id="btn-open-3">
+        <img src="./images/juv.jpg" alt="juv" class="logo" />
+      </button>
+    </div>
+    <!-- 3 club container -->
+
+    <!-- club 1 -->
+    <div class="clubs-container">
+      <div class="club close" id="man-utd">
+        <h2 class="club-title">MANCHESTER UNITED</h2>
+
+        <img src="./images/MU cr7.jpg" alt="mu" class="img-1" />
+        <p class="club-stats">
+          Matches: 346 <br />
+          Goals: 145 <br />
+          Assists: 57 <br />
+          Trophies: 10 <br />
+          Champions League: 1 <br />
+          Golden Boot: 1 <br />
+          Ballon D'or: 1
+        </p>
+        <button class="btnn" id="btn-close-1">Close</button>
+      </div>
+
+      <!-- club 2 -->
+      <div class="club close" id="real-madrid">
+        <h2 class="club-title">REAL MADRID</h2>
+        <img src="./images/RM cr7.jpg" alt="ronaldo" class="img-2" />
+        <p class="club-stats">
+          Matches: 438 <br />
+          Goals: 450 <br />
+          Assists: 120 <br />
+          Trophies: 15 <br />
+          Champions League: 4 <br />
+          Golden Boot: 3 <br />
+          Ballon D'or: 4
+        </p>
+        <button class="btnn" id="btn-close-2">Close</button>
+      </div>
+
+      <!-- club 3 -->
+      <div class="club close" id="juventus">
+        <h2 class="club-title">JUVENTUS</h2>
+
+        <img src="./images/juv cr7.jpg" alt="ronaldo" class="img-3" />
+        <p class="club-stats">
+          Matches: 134 <br />
+          Goals: 101 <br />
+          Assists: 20 <br />
+          Trophies: 5 <br />
+          Champions League: 0 <br />
+          Golden Boot: 0 <br />
+          Ballon D'or: 0
+        </p>
+        <button class="btnn" id="btn-close-3">Close</button>
+      </div>
+    </div>
     <!-- Custom JavaScript -->
     <script src="./script/script.js"></script>
   </body>
