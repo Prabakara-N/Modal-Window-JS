@@ -28,6 +28,7 @@ window.addEventListener("keydown", function (event) {
 //club 2
 
 //Elements
+
 const btnOpen = document.getElementById("btn-open-2");
 const btnClose = document.getElementById("btn-close-2");
 const rmEl = document.getElementById("real-madrid");

@@ -93,6 +93,12 @@ body {
   cursor: pointer;
 }
 
+.btnn:hover {
+  transform: scale(1.1) translateY(-3px);
+  transition: 0.5s;
+  background-color: rgb(244, 177, 7);
+}
+
 .club {
   width: 33%;
   margin: 2rem auto;
