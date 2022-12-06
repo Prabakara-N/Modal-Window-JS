@@ -76,11 +76,12 @@ body {
   border-radius: 5px;
   cursor: pointer;
   background-color: transparent;
+  transition: 0.4s;
 }
 
 .btn:hover {
   transform: scale(1.1) translateY(-5px);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .btnn {
@@ -91,11 +92,12 @@ body {
   color: black;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .btnn:hover {
-  transform: scale(1.1) translateY(-3px);
-  transition: 0.5s;
+  transform: scale(0.9) translateY(-3px);
+  transition: 0.3s;
   background-color: rgb(244, 177, 7);
 }
 
